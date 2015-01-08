@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Team Activity</title>
+<script>
+  function appendText(){
+  var text = document.getElementById("textInput").value;
+  document.getElementById("div1").innerHtml += text;
+  }
+</script>
+  </head>
+  <body>
+    <div id="div1"> THis is a div</div>
+    <input type="text" id="textInput" />
+    <button onclick="appendText();"> Append Text</button>
+  </body>
+</head>
