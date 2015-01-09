@@ -5,7 +5,7 @@
     <script>
       function appendText(){
       var text = document.getElementById("textInput").value;
-      document.getElementById("div1").innerHtml += text;
+      document.getElementById("div1").innerHTML += text;
       }
 
       functions hide(){
@@ -18,10 +18,10 @@
     </script>
   </head>
   <body>
-    <div id="div1">This is a div</div>
+    <div id="div1">This is a div, and here is the change.</div>
     <input type="text" id="textInput" />
-    <button onclick="appendText();">Append Text</button>
-    <button onclick="hide();">hide</button>
-    <button onclick="show();">show</button>
+    <button onClick="appendText();">Append Text</button>
+    <button onClick="hide();">hide</button>
+    <button onClick="show();">show</button>
   </body>
-</head>
+</html>
