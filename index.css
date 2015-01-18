@@ -1,0 +1,46 @@
+body {background-color: #000000;}
+
+h1{
+	font-family: "Western";
+	font-family: cursive;
+	text-shadow: 2px 2px #000000;
+	text-align: center;
+	font-size: 60px;
+	font-weight: bold;
+}
+h2{
+	font-family: "Western";
+	font-family: cursive;
+	text-align: center;
+}
+img{
+	position: relative;
+	top:5px;
+	left: 380px;
+}
+h3{
+	font-family: "Western";
+	font-family: cursive;
+	text-align: center;
+}
+#headers{
+	background-color: #996633;
+	text-align: center;
+}
+#info{
+	text-align: center;
+	font-family: "Western";
+	font-family: cursive;
+}
+#border{
+	background-image: url("http://oakdome.com/k5/lesson-plans/photo-editing/wanted-poster/blank-wanted-poster.jpg");
+	background-size: 800px 1500px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#yes{
+	visibility: hidden;
+}
+#no{
+	visibility: hidden;
+}
