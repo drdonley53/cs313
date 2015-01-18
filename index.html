@@ -1,9 +1,40 @@
-<!DOCTYPE html>
 <html>
-  <head>
-    <title>Home Page</title>
-  </head>
-  <body>
-    <div>Hello World</div>
-  </body>
+<head>
+	<title>Wanted</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="index.js"></script>
+  <script>
+$(document).ready(function(){
+  $(":button").css("background-color","#996633");
+});
+</script>
+</head>
+<body>
+	<div id="headers"><a href="assignments.html">Assignments</a>
+		<a href="index.html">About Me</a>
+	</div>
+	<div id="border">
+	<h1>WANTED</h1>
+	<h2>David Donley</h2>
+	<img src="Wanted.jpg" style="width:500px; height:500px;">
+	<h3>Profile</h3>
+	<div id="info">
+		Age: 24  | Height: 5:11  | Weight: 200<br>Hair color: Dark Brown | eye Color: blue<br>
+		Major: Computer Science<br>Likes: Snowboarding, running, Action movies, reading, Writing.<br><br>
+		Wanted for: Serving a full time mission in Maryland, Baltimore.  
+		<br>Creating a website that allows <br>
+		People to bring there story ideas to the paper.  <br> 
+		Being totally awsome <br><br> 
+		Wanted Alive <br> 
+		Reward: A Big FAT Thank You!<br>
+		Have you seen this man?<br>
+		<button type="button" onclick="yes();">YES</button>
+	<button type="button" onclick="no()">NO</button>
+	<div id="answer"></div>
+	</div>
+	
+	</div>
+</body>
 </html>
