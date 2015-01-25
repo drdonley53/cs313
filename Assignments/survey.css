@@ -1,0 +1,29 @@
+
+body{background-image:url("heroBack.jpg");}
+
+#invisible{
+	visibility: hidden;
+}
+#newInvisible{
+	visibility: hidden;
+}
+#vis{
+	visibility: hidden;
+}
+
+#border{
+	text-align: center;
+}
+h1{
+	text-align: center
+
+}
+#link{
+	text-align: center;
+	background-color: black;
+}
+
+#border{
+	text-align: center;
+
+}

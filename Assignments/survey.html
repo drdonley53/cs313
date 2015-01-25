@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head><title>Survey</title>
+	<div id="link"><pre><a href="../assignments.html">Back to Assignments</a><a href="survey.php">      Results</a><a href="../index.html">        Home</a></pre>
+	</div>
+<h1>Good or Evil</h1>
+<link rel="stylesheet" type="text/css" href="survey.css">
+<script type="text/javascript" src="survey.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>
+</script>
+
+	</head>
+	<body>
+		
+	<div id="border">
+		<form action="survey.php" method="POST">
+		<h4>Point of this survey</h4>
+		<p>Superhero movies are extremly popular today. Say you were chosen to play a role in <br>
+		the movie.  Givin your personality please answer the next questions as honestly as possible.</p>
+
+		Question 1:  <h4>Would you be the hero or the villan?<h4> <br>
+		<input type="radio" name="char" value="Hero" onclick="hero()"> Hero<br>
+		<input type="radio" name="char" value="Villan" onclick="villan()">Villan<br><br>
+		<div id="choice"></div>
+		<div id="invisible">
+		<br><h4>What power do you have<h4><br>
+		<input type="radio" name="Power" value="Strength" onclick="powerGone(); newVisible()">Super Strength<br>
+		<input type="radio" name="Power" value="Flight" onclick="powerGone(); newVisible()">Flight<br>
+		<input type="radio" name="Power" value="Elements" onclick="newVisible()">Elemental Control<br><div id="element"></div>
+		<input type="radio" name="Power" value="Invisiblity" onclick="powerGone(); newVisible();">Invisibility<br>
+		</div>
+		<div id="newInvisible"></div>
+		<div id="vis">
+			<input type="radio" name="city" value="Detroit, Michigan">Kansas City, Missouri<br>
+			<input type="radio" name="city" value="New Orleans, Louisiana">Baton Rouge, Louisiana<br>
+			<input type="radio" name="city" value="Oakland, Calafornia">Oakland, Calafornia<br>
+			<input type="radio" name="city" value="Cincinnati, Ohio">Cincinatti, Ohio<br>
+			<input type="radio" name="city" value="Birmingham, Alabama">Birmingham, Alabama<br>
+			<input type="radio" name="city" value="Baltimore, Maryland">Baltimore, Maryland<br><br>
+			<input id="sub" type="submit">
+		</div>
+	</form>
+</div>
+	</body>
+</html>
