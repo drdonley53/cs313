@@ -22,7 +22,7 @@ function loadDatabase()
   $dbUser = "";
   $dbPassword = "";
 
-     $dbName = "testdb";
+     $dbName = "author_web";
 
      $openShiftVar = getenv('OPENSHIFT_MYSQL_DB_HOST');
 

@@ -15,20 +15,8 @@
 	<button id="btn" onclick="location.href='genre.php'">genre</button></div>
 
 	<?php
-
-	$db = new PDO("mysql:host=localhost;dbname=author_web", 'Ddonley', 'passW');
-
-	try
-{
-   $user = "Ddonley";
-   $password = "passW"; 
-   $db = new PDO("mysql:host=127.0.0.1;dbname=author_web", $user, $password);
-}
-catch (PDOException $ex) 
-{
-   echo "Error!: " . $ex->getMessage();
-   die(); 
-}
+	require("dbConnector.php");
+	$db = loadDatabase();
 
 	?>
 
