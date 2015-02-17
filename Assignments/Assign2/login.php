@@ -13,24 +13,12 @@
 	<button id="btn" onclick="location.href='story.php'">Stories</button>
 	<button id="btn" onclick="location.href='profile.php'">Profiles</button>
 	<button id="btn" onclick="location.href='genre.php'">genre</button></div>
+	<div id="border">
+<div id="text">
+	<form method="post" action="userLogin.php">
+	<h1>Please Log In</h1>
+	User Name<input type="text" id="username" name="username"> Password <input type="text" id="password" name="password">
 
-	<?php
-	require("dbConnector.php");
-	$db = loadDatabase();
-
-	?>
-
-	<?php
-	echo "<h1>There is only one profile so far</h1>";
-	foreach ($db->query("SELECT username, password FROM user") as $row)
-	{
- 	  echo "<strong> Profile: " . $row['username'];
- 	  echo "<br /> Password: None of your business"; 
- 	  echo "<br /></br />";
-	}
-	?>
-
-
-	<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-				<br /><br /><br /><br /><br /><br />
+	<input type="submit" value="Login" id="btn"></form></div><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+				<br /><br /><br /><br /><br /><br /></div>
 </body>

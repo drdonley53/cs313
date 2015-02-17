@@ -9,6 +9,7 @@
 	<div id="buttons">
 		<button id="btn" onclick="location.href='../../index.html'">David's home Page</button>
 		<button id="btn" onclick="location.href='../../assignments.html'">Assignments</button>
+		<button id="btn" onclick="location.href='login.php'">login</button>
 	<button id="btn" onclick="location.href='extract.php'">Home</button>
 	<button id="btn" onclick="location.href='story.php'">Stories</button>
 	<button id="btn" onclick="location.href='profile.php'">Profiles</button>
