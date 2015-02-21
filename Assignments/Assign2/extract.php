@@ -30,6 +30,6 @@
 				constructive feetback on there ideas for there novel.  This is in hopes that they will<br />
 				gain the motivation to start there story.<br /></p>
 
-				<input type="submit" value="SignUp" id="btn"></form></div><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+				<input type="submit" value="SignUp" name="submit" id="btn"></form></div><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 				<br /><br /><br /><br /><br /><br /></div>
 </body>

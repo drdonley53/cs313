@@ -15,17 +15,13 @@
 	<button id="btn" onclick="location.href='extract.php'">Home</button>
 	<button id="btn" onclick="location.href='story.php'">Stories</button>
 	<button id="btn" onclick="location.href='profile.php'">Profiles</button>
-	<button id="btn" onclick="location.href='genre.php'">genre</button></div>s
+	<button id="btn" onclick="location.href='genre.php'">genre</button></div>
 
 <?php
   require("dbConnector.php");
   $db = loadDatabase();
 
   ?>
-
-
-
-
 
 
 	<?php

@@ -19,6 +19,6 @@
 	<h1>Please Log In</h1>
 	User Name<input type="text" id="username" name="username"> Password <input type="text" id="password" name="password">
 
-	<input type="submit" value="Login" id="btn"></form></div><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+	<input type="submit" value="Login" name="submit" id="btn"></form></div><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 				<br /><br /><br /><br /><br /><br /></div>
 </body>
